@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #404C51;
+}
+
+label {
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+  }
+}
+
+.col-dialog {
+  width: 400px;
+
+}
+
+.col-id {
+  width: 80px;
+  text-align: center;
+}
+
+.col-tel {
+  width: 160px;
+  text-align: left;
+}
+
+.col-acoes {
+  width: 80px;
+  text-align: center;
+}
+
+/* COR FONT CALENDARIO PRIMENG */
+
+.ui-widget-content a {
+  color: #1aeaff;
+}
+
+
+.ui-widget, .ui-widget * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+.ui-state-active {
+  border-color: #ff001b !important;
+  background: #b30000 !important;
+  color: #ffffff !important;
+}
+
+.ui-table .ui-table-thead > tr > th, .ui-table .ui-table-tfoot > tr > td {
+  background: #3d3d3d;
+  border: 1px solid #8a8a8a;
+  color: #ffffff;
+}
+
+.ui-widget-header {
+  border: 1px solid #1f1f1f;
+  background: #1f1f1f;
+  color: #ffffff;
+  font-weight: 500;
+}
+
+.ui-button.ui-button-danger.ui-state-default, .ui-splitbutton.ui-button-danger .ui-button.ui-state-default {
+  background-color: #ef0202;
+  border-color: #d9534f;
+  color: #fff;
+}
+
+.ui-button.ui-button-info.ui-state-default, .ui-splitbutton.ui-button-info .ui-button.ui-state-default {
+  background-color: #797373;
+  border-color: #797373;
+  color: #fff;
+}
